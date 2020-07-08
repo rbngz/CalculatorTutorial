@@ -1,0 +1,35 @@
+.button {
+    -fx-font-family: "Helvetica Neue";
+    -fx-min-width: 58;
+    -fx-min-height: 49;
+    -fx-background-color: #7F7B85;
+    -fx-opacity: 0.95;
+    -fx-text-fill: WHITE;
+    -fx-font-size: 23;
+    -fx-border-color: #51495D;
+    -fx-border-width: 0.8;
+}
+.button:pressed{
+    -fx-background-color: #ada7b3;
+}
+
+.label{
+    -fx-font-family: "Helvetica Neue";
+    -fx-background-color: #51495D;
+    -fx-font-size: 50;
+    -fx-text-fill: WHITE;
+    -fx-alignment: bottom-right;
+    -fx-padding: 0 15 0 0;
+    -fx-min-width: 232;
+    -fx-min-height: 60;
+}
+.operator{
+    -fx-background-color: #F2A23C;
+    -fx-opacity: 1.0;
+}
+.operator:pressed{
+    -fx-background-color: #a46c29;
+}
+.operator:focused{
+    -fx-border-color: BLACK;
+}
